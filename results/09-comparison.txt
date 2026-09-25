@@ -1,0 +1,27 @@
+=== ACP prototype: comparison with sampling-based audits ===
+(N = 10000 committed elements, q = 100 samples, SMT depth 48)
+
+[A] Shared sampling core (DAPOL+/Provisions-style transparent SMT membership audit):
+    build (commit)     : 266.8 ms
+    prove  q=100        : 0.17 ms  (1.7 us/sample)
+    verify q=100        : 2.77 ms  (27.7 us/sample)
+    per-sample proof   : 1568 B
+    properties         : transparent Merkle; NOT zero-knowledge here; NOT post-quantum-bound;
+                         self-contained set, no external namespace, no absence oracle.
+
+[B] ACP coverage (this work): shared SMT core + absence oracle + PQ transparent ZK:
+    commit C_Sigma     : 238.5 ms
+    registry build     : 236.5 ms  (absence oracle, ML-DSA-65 signed root)
+    cover (witnesses)  : 0.48 ms  (21 inclusion / 79 absence)
+    verify (protocol)  : 7.88 ms  (one absence witness = ML-DSA verify + non-memb ~91 us)
+    PQ ZK STARK        : prove 0.263 s, verify 2.9 ms, proof 166.4 KB, 100-bit
+    properties         : post-quantum + transparent + zero-knowledge;
+                         audits a private set against an EXTERNAL public namespace,
+                         sound against omission via the absence oracle (2nd source).
+
+Summary: the sampling/SMT core is comparable (both ~us/sample, same (1-rho)^q bound).
+ACP's additions over the shared core are the external-namespace absence oracle
+(+1 ML-DSA verify, amortized over q) and the post-quantum transparent ZK proof.
+DAPOL+ adds Pedersen commitments + range proofs (classical); Notus uses an RSA
+accumulator with trusted setup (O(1) proof). Neither audits an external namespace
+nor is post-quantum; see the paper's comparison table.

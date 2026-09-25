@@ -1,0 +1,23 @@
+=== ACP prototype: integrated coverage protocol (q=100, N=1000) ===
+
+Honest prover (discloses full deployed set):
+  accept            : true
+  samples           : 100  (20 inclusion, 80 absence)
+  commit C_Sigma    : 29.2 ms (inventory 1000 leaves)
+  registry build    : 29.0 ms
+  cover (witnesses) : 0.43 ms
+  verify (protocol) : 8.19 ms
+
+Malicious prover (conceals 500 of 1000 deployed):
+  concealed ids sampled : 12 of 100
+  accept                : false  (rejected at sample Some(22))
+  => coverage soundness: a sample on a concealed id has no inclusion
+     proof and no registry absence witness, so the proof fails.
+
+ZK bound-batched proof of the 20 inclusion paths (depth 48 => 960 rows, padded 1024):
+  STARK prove  : 1.118 s
+  STARK verify : 5.6 ms
+  proof size   : 310.5 KB  (100-bit conjectured FRI soundness)
+
+Note: in non-blind ACP only the inclusion paths are in zero knowledge;
+absence witnesses (registry root + signature + non-membership) are public.

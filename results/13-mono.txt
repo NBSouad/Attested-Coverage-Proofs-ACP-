@@ -1,0 +1,17 @@
+    Finished `release` profile [optimized] target(s) in 0.03s
+     Running tests/mono_measure.rs (target/release/deps/mono_measure-02bfdbc7811627d9)
+
+running 2 tests
+test measure_monotonicity_hiding ... 
+=== VPQM epoch monotonicity circuit (hiding FRI) ===
+mono n=  10 depth=48 trace_rows=   512 cols=921 | prove= 1.284s verify=  7.9ms size= 476.3KB bits=100
+ok
+test measure_monotonicity_plain ... 
+=== VPQM epoch monotonicity circuit (plain FRI) ===
+mono n=  10 depth=48 trace_rows=   512 cols=921 | prove= 0.581s verify=  6.3ms size= 388.6KB bits=100
+mono n=  50 depth=48 trace_rows=  4096 cols=921 | prove= 4.253s verify=  7.1ms size= 440.2KB bits=100
+mono n= 100 depth=48 trace_rows=  8192 cols=921 | prove= 8.529s verify=  7.3ms size= 459.7KB bits=100
+ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 14.96s
+

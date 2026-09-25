@@ -1,0 +1,7 @@
+== DNSSEC denial-of-existence (ietf.org) ==
+    key tags: [2371, 34505]; ZSK tag 34505 found
+    [NSEC denial] ECDSA-P256/SHA-256 RRSIG: Verified OK
+    [DNSKEY set (KSK chain link)] ECDSA-P256/SHA-256 RRSIG: Verified OK
+== CT signed tree head (Cloudflare Nimbus2026) ==
+    [STH] tree_size=6285942679 ts=1788790597677: Verified OK
+RESULT: all real-oracle evidence verified

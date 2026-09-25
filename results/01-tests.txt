@@ -1,0 +1,177 @@
+    Finished `release` profile [optimized] target(s) in 0.08s
+     Running unittests src/lib.rs (target/release/deps/acp-db2f46b368aaa898)
+
+running 3 tests
+test tests::commit_before_beacon_cannot_be_evaded ... ok
+test tests::concealing_prover_is_rejected ... ok
+test tests::honest_prover_is_accepted_and_bs_is_correct ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+
+     Running unittests src/main.rs (target/release/deps/acp-2e2ff85896e2b6b5)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/compare.rs (target/release/deps/acp_compare-70c3fac0f2fce113)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/release/deps/acp_absence-657941a6e6ecca38)
+
+running 5 tests
+test tests::tampered_signature_rejected ... ok
+test tests::tampered_root_rejected ... ok
+test tests::wrong_key_rejected ... ok
+test tests::deployed_identifier_has_no_witness ... ok
+test tests::absent_identifier_verifies ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running unittests src/main.rs (target/release/deps/acp_absence-6c92fda06d854e05)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/release/deps/acp_bench-9e29111ec85d6cd2)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/release/deps/acp_circuit-6b75f097bea49f89)
+
+running 26 tests
+test bind::tests::repositioned_path_reaches_a_different_root ... ok
+test bind::tests::constraints_reject_wrong_root - should panic ... ok
+test bind::tests::constraints_reject_wrong_identifier - should panic ... ok
+test bind::tests::honest_statement_satisfies_the_constraints ... ok
+test bind::tests::constraints_reject_repositioned_path - should panic ... ok
+test bind::tests::constraints_reject_wrong_position - should panic ... ok
+test bind::tests::trace_reproduces_the_smt_root ... ok
+test blind::tests::concealed_identifier_cannot_use_the_absence_branch - should panic ... ok
+test blind::tests::honest_absence_satisfies_the_constraints ... ok
+test blind::tests::cannot_claim_absence_for_a_registered_member - should panic ... ok
+test blind::tests::concealed_identifier_cannot_use_the_inclusion_branch - should panic ... ok
+test blind::tests::cannot_claim_inclusion_for_a_non_member - should panic ... ok
+test blind::tests::honest_inclusion_satisfies_the_constraints ... ok
+test blind::tests::wrong_id_digest_is_rejected - should panic ... ok
+test mono::tests::forged_regression_rejected - should panic ... ok
+test mono::tests::honest_monotonic_paths_satisfy_constraints ... ok
+test blind::tests::the_statement_contains_no_branch_indicator ... ok
+test mono::tests::mismatched_position_rejected - should panic ... ok
+test tests::aligned_air_matches_smt_permutation ... ok
+test blind::tests::wrong_position_is_rejected - should panic ... ok
+test bind::tests::honest_path_proves_and_verifies ... ok
+test bind_batch::tests::two_batched_bound_paths_plain ... ok
+test tests::small_stark_proves_and_verifies ... ok
+test mono::tests::honest_proof_proves_and_verifies ... ok
+test tests::hiding_config_proves_and_verifies ... ok
+test bind_batch::tests::q10_batched_bound_paths_plain ... ok
+
+test result: ok. 26 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.33s
+
+     Running unittests src/main.rs (target/release/deps/acp_circuit-f13312c7c4db9d83)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/bind_batch_measure.rs (target/release/deps/bind_batch_measure-d700fdee660a2c21)
+
+running 1 test
+test measure_batched_binding_d48 has been running for over 60 seconds
+test measure_batched_binding_d48 ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 120.63s
+
+     Running tests/bind_measure.rs (target/release/deps/bind_measure-5b1dd7ceb8bbaf37)
+
+running 2 tests
+test measure_single_bound_path ... ok
+test measure_q_independent_bound_paths ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 5.90s
+
+     Running tests/blind_measure.rs (target/release/deps/blind_measure-218ed7fa403d257d)
+
+running 1 test
+test measure_blind ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.12s
+
+     Running tests/leaf_probe.rs (target/release/deps/leaf_probe-f6ebc1eb90458d87)
+
+running 1 test
+test leaf_with_value_is_two_perms ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/mono_measure.rs (target/release/deps/mono_measure-f6437643f57b76b9)
+
+running 2 tests
+test measure_monotonicity_hiding ... ok
+test measure_monotonicity_plain ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 13.81s
+
+     Running tests/zk_measure.rs (target/release/deps/zk_measure-0a17bbda9e8d296a)
+
+running 1 test
+test measure_hiding_overhead ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 47.06s
+
+     Running tests/zk_one.rs (target/release/deps/zk_one-9c1f8a900d782b11)
+
+running 1 test
+test zk_single_point ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 58.03s
+
+     Running unittests src/lib.rs (target/release/deps/acp_smt-24701a3024fadfb4)
+
+running 12 tests
+test tests::empty_tree_root_is_empty_subtree ... ok
+test tests::derived_leaf_is_never_the_empty_leaf ... ok
+test tests::membership_and_kind_must_match ... ok
+test tests::tampered_sibling_is_rejected ... ok
+test tests::wrong_root_is_rejected ... ok
+test tests::tampered_value_is_rejected ... ok
+test tests::adding_a_member_changes_root ... ok
+test tests::inclusion_proof_verifies ... ok
+test tests::absence_proof_verifies ... ok
+test tests::planted_collision_cannot_impersonate_an_identifier ... ok
+test tests::insertion_order_independent ... ok
+test tests::build_is_deterministic ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+   Doc-tests acp
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests acp_absence
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests acp_circuit
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests acp_smt
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

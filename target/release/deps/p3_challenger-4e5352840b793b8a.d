@@ -1,0 +1,10 @@
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/release/deps/p3_challenger-4e5352840b793b8a.d: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/duplex_challenger.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/grinding_challenger.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/hash_challenger.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/multi_field_challenger.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/serializing_challenger.rs
+
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/release/deps/libp3_challenger-4e5352840b793b8a.rmeta: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/duplex_challenger.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/grinding_challenger.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/hash_challenger.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/multi_field_challenger.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/serializing_challenger.rs
+
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/lib.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/duplex_challenger.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/grinding_challenger.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/hash_challenger.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/multi_field_challenger.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/challenger/src/serializing_challenger.rs:

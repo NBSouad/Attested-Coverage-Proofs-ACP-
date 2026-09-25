@@ -1,0 +1,10 @@
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/debug/deps/p3_poseidon2_air-c13e3b6bb3ab18ba.d: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/air.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/columns.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/constants.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/generation.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/vectorized.rs
+
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/debug/deps/libp3_poseidon2_air-c13e3b6bb3ab18ba.rmeta: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/air.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/columns.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/constants.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/generation.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/vectorized.rs
+
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/lib.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/air.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/columns.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/constants.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/generation.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/poseidon2-air/src/vectorized.rs:

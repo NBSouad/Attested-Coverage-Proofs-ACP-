@@ -1,0 +1,2 @@
+=== ACP STARK: single proof of 2^18 Poseidon2 permutations ===
+  2^18=  262144  cols 180  prove    63.62 s  verify    5.5 ms  proof   325.1 KB  ~mem   3.8 GB  100 bit

@@ -1,0 +1,11 @@
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/debug/deps/p3_merkle_tree-098b1ea7dd33cc52.d: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/hiding_mmcs.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/merkle_tree.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/mmcs.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/pruning.rs
+
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/debug/deps/libp3_merkle_tree-098b1ea7dd33cc52.rlib: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/hiding_mmcs.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/merkle_tree.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/mmcs.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/pruning.rs
+
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/debug/deps/libp3_merkle_tree-098b1ea7dd33cc52.rmeta: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/hiding_mmcs.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/merkle_tree.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/mmcs.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/pruning.rs
+
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/lib.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/hiding_mmcs.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/merkle_tree.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/mmcs.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/merkle-tree/src/pruning.rs:

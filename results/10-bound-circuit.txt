@@ -1,0 +1,13 @@
+   Compiling acp-circuit v0.1.0 (/Users/test_exp/Downloads/VPQM_II/acp-prototype/crates/acp-circuit)
+    Finished `release` profile [optimized] target(s) in 2.81s
+     Running tests/bind_measure.rs (target/release/deps/bind_measure-d60bf801e5c6625b)
+
+running 2 tests
+test measure_q_independent_bound_paths ... Q=10   bound-independent: prove=0.47s verify=27ms proofs=1.6MB
+Q=100  bound-independent: prove=5.04s verify=273ms proofs=15.6MB
+ok
+test measure_single_bound_path ... SINGLE  depth=32 cols=371 (p2=180 link=191) prove=0.030s verify=2.8ms proof=159.7KB
+ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 5.95s
+

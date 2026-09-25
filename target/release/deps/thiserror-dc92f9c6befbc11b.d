@@ -1,0 +1,14 @@
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/release/deps/thiserror-dc92f9c6befbc11b.d: /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs /Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/release/build/thiserror-b23636358fe810f0/out/private.rs
+
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/release/deps/libthiserror-dc92f9c6befbc11b.rlib: /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs /Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/release/build/thiserror-b23636358fe810f0/out/private.rs
+
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/release/deps/libthiserror-dc92f9c6befbc11b.rmeta: /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs /Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs /Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/release/build/thiserror-b23636358fe810f0/out/private.rs
+
+/Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs:
+/Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs:
+/Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs:
+/Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs:
+/Users/nene/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs:
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/release/build/thiserror-b23636358fe810f0/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/release/build/thiserror-b23636358fe810f0/out

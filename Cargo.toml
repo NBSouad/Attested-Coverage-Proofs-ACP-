@@ -1,0 +1,32 @@
+[workspace]
+resolver = "2"
+members = ["crates/acp-smt", "crates/acp-bench", "crates/acp-circuit", "crates/acp-absence", "crates/acp"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "local"
+
+# Plonky3 pinned to a fixed commit for reproducibility.
+# Commit: 8fa63378fd0a9a4eeaff32b8751579cbf13f58d9 (main, fetched 2026-05-30)
+# Plonky3 crate version at this commit: 0.5.1 (edition 2024; requires rustc >= 1.85).
+[workspace.dependencies]
+p3-field        = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-goldilocks   = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-symmetric    = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-air          = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-poseidon2-air = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-uni-stark    = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-fri          = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-merkle-tree  = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-commit       = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-dft          = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-challenger   = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+p3-matrix       = { git = "https://github.com/Plonky3/Plonky3", rev = "8fa63378fd0a9a4eeaff32b8751579cbf13f58d9" }
+rand = "0.10"
+postcard = { version = "1", default-features = false, features = ["alloc"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"

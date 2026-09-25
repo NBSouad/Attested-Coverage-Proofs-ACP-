@@ -1,0 +1,13 @@
+=== ACP prototype: signed-registry absence oracle (ML-DSA-65) ===
+
+ML-DSA-65 sizes: pk = 1952 B, sk = 4032 B, sig = 3309 B
+keygen 140.2 us | sign 284.6 us | verify 75.5 us  (avg of 50)
+
+Signed registry + absence witnesses (depth 48):
+  N=   1000: build    29.3 ms | epoch-verify(q=100) = 1 sig (75 us) + 100 non-memb (2.76 ms) = 2.83 ms
+  N=  10000: build   265.2 ms | epoch-verify(q=100) = 1 sig (78 us) + 100 non-memb (2.75 ms) = 2.82 ms
+  N= 100000: build  2671.5 ms | epoch-verify(q=100) = 1 sig (68 us) + 100 non-memb (2.69 ms) = 2.76 ms
+
+Per-epoch absence overhead: shared root 32 B + ML-DSA sig 3309 B + pk 1952 B,
+plus 1536 B per sampled identifier (depth-48 non-membership path).
+Amortized epoch verification = 1 ML-DSA-65 verify + q Poseidon2 non-membership checks.

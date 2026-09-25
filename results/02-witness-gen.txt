@@ -1,0 +1,15 @@
+=== ACP prototype: out-of-circuit benchmarks ===
+(field = Goldilocks; H_in = Poseidon2 width-8; digest = 4 elems = 32 B)
+
+Hash primitives:
+  Poseidon2 width-8 permute    :   1.81 M/s  ( 552.6 ns/op)
+  2:1 compression (1 perm)     :   1.87 M/s  ( 535.3 ns/op)
+  leaf hash (id+value)         : 464.92 K/s  (2150.9 ns/op)
+
+Sparse Merkle tree (build once, then per-query prove/verify, q=100, 50/50 present/absent):
+  N=   1000  depth=48  build=    27.8 ms  prove/q=    2.0 us  verify/q=  28.4 us  incl_wit=1568 B  abs_wit=1536 B
+  N=  10000  depth=48  build=   254.8 ms  prove/q=    2.4 us  verify/q=  28.4 us  incl_wit=1568 B  abs_wit=1536 B
+  N= 100000  depth=48  build=  2606.2 ms  prove/q=    3.4 us  verify/q=  28.7 us  incl_wit=1568 B  abs_wit=1536 B
+
+Note: these are witness-generation (out-of-circuit) costs only.
+In-circuit STARK proving/verifying is measured by the circuit crate (P3+).

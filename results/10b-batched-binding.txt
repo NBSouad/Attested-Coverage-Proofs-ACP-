@@ -1,0 +1,23 @@
+   Compiling acp-circuit v0.1.0 (/Users/test_exp/Downloads/VPQM_II/acp-prototype/crates/acp-circuit)
+    Finished `release` profile [optimized] target(s) in 2.46s
+     Running tests/bind_batch_measure.rs (target/release/deps/bind_batch_measure-c726872cf32a058e)
+
+running 1 test
+test measure_batched_binding_d48 ... 
+=== Batched bound coverage proof, depth D = 48, plain (non-hiding) ===
+     q        q*D  trace_rows        prove       verify       proof    bits
+      10        480         512      0.257s        4.1ms    223.1KB     100
+     100       4800        8192      3.570s        5.3ms    294.2KB     100
+     406      19488       32768     14.097s        5.9ms    335.8KB     100
+     525      25200       32768     14.028s        5.9ms    335.9KB     100
+
+=== Batched bound coverage proof, depth D = 48, hiding (zero-knowledge) ===
+     q        q*D  trace_rows        prove       verify       proof    bits
+      10        480         512      0.547s        5.0ms    290.9KB     100
+     100       4800        8192      8.877s        6.3ms    374.3KB     100
+     406      19488       32768     35.562s        6.9ms    422.7KB     100
+     525      25200       32768     35.697s        7.1ms    422.8KB     100
+ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 118.82s
+

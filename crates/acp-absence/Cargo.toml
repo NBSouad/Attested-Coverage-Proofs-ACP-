@@ -1,0 +1,15 @@
+[package]
+name = "acp-absence"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Mock signed-registry absence oracle for ACP (real ML-DSA on the registry root + Poseidon2 non-membership)."
+
+[dependencies]
+acp-smt = { path = "../acp-smt" }
+p3-field = { workspace = true }
+fips204 = "0.4.6"
+
+[[bin]]
+name = "acp-absence"
+path = "src/main.rs"

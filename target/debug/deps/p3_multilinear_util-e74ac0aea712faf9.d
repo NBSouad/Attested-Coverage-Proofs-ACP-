@@ -1,0 +1,11 @@
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/debug/deps/p3_multilinear_util-e74ac0aea712faf9.d: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/eq_batch.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/point.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/poly.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/split_eq/mod.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/split_eq/eq.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/split_eq/packed_kernel.rs
+
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/debug/deps/libp3_multilinear_util-e74ac0aea712faf9.rmeta: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/eq_batch.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/point.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/poly.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/split_eq/mod.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/split_eq/eq.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/split_eq/packed_kernel.rs
+
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/lib.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/eq_batch.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/point.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/poly.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/split_eq/mod.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/split_eq/eq.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/multilinear-util/src/split_eq/packed_kernel.rs:

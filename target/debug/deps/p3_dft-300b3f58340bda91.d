@@ -1,0 +1,13 @@
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/debug/deps/p3_dft-300b3f58340bda91.d: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/butterflies.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/naive.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_bowers.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_dit.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_dit_parallel.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_small_batch.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/traits.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/util.rs
+
+/Users/nene/Documents/Claude/Projects/VPQM_I/acp-prototype/target/debug/deps/libp3_dft-300b3f58340bda91.rmeta: /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/lib.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/butterflies.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/naive.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_bowers.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_dit.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_dit_parallel.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_small_batch.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/traits.rs /Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/util.rs
+
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/lib.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/butterflies.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/naive.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_bowers.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_dit.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_dit_parallel.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/radix_2_small_batch.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/traits.rs:
+/Users/nene/.cargo/git/checkouts/plonky3-7d8a3b21a665a86f/8fa6337/dft/src/util.rs:

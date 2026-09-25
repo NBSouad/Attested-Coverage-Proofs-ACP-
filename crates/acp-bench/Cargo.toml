@@ -1,0 +1,16 @@
+[package]
+name = "acp-bench"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Measured micro/macro benchmarks for the ACP prototype (out-of-circuit layer)."
+
+[dependencies]
+acp-smt = { path = "../acp-smt" }
+p3-field = { workspace = true }
+p3-goldilocks = { workspace = true }
+p3-symmetric = { workspace = true }
+
+[[bin]]
+name = "acp-bench"
+path = "src/main.rs"

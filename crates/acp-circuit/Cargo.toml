@@ -1,0 +1,27 @@
+[package]
+name = "acp-circuit"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "In-circuit ACP relation: transparent STARK over Poseidon2-Goldilocks (Merkle-path hashing and batched binding)."
+
+[dependencies]
+acp-smt = { path = "../acp-smt" }
+p3-field = { workspace = true }
+p3-goldilocks = { workspace = true }
+p3-symmetric = { workspace = true }
+p3-air = { workspace = true }
+p3-poseidon2-air = { workspace = true }
+p3-uni-stark = { workspace = true }
+p3-fri = { workspace = true }
+p3-merkle-tree = { workspace = true }
+p3-commit = { workspace = true }
+p3-dft = { workspace = true }
+p3-challenger = { workspace = true }
+p3-matrix = { workspace = true }
+rand = { workspace = true }
+postcard = { workspace = true }
+
+[[bin]]
+name = "acp-circuit"
+path = "src/main.rs"

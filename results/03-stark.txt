@@ -1,0 +1,21 @@
+=== ACP prototype: in-circuit STARK (Poseidon2-Goldilocks) ===
+(width 8, S-box degree 7, 8 full + 22 partial rounds; FRI benchmark params)
+
+Permutation-count sweep:
+       perms   cols       cells        prove       verify       proof    bits
+  2^10= 1024    180      184320      0.284 s        2.9 ms    166.4 KB     100
+  2^12= 4096    180      737280      1.014 s        3.5 ms    199.9 KB     100
+  2^14=16384    180     2949120      3.831 s        4.0 ms    237.5 KB     100
+  2^16=65536    180    11796480     15.656 s        4.8 ms    279.2 KB     100
+  2^17=131072    180    23592960     31.663 s        5.2 ms    301.7 KB     100
+
+ACP coverage configs (depth D = 48; perms = q*D rounded up to 2^k):
+       q        q*D      perms        prove       verify       proof    bits
+      10        480        512      0.130 s        2.7 ms    151.1 KB     100
+     100       4800       8192      1.962 s        3.9 ms    218.1 KB     100
+     406      19488      32768      7.887 s        4.5 ms    258.2 KB     100
+    2100     100800     131072     31.769 s        5.2 ms    301.7 KB     100
+
+Note: measures the dominant Poseidon2 hashing of q depth-D paths.
+Run `-- one <log2>` for a single large proof, `-- shard <T> <S>` for
+sharded (recursive-composition) scaling.

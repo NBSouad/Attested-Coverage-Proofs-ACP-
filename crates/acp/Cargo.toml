@@ -1,0 +1,20 @@
+[package]
+name = "acp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Integrated ACP coverage protocol: beacon sampling + inventory inclusion + signed-registry absence, with prover and verifier."
+
+[dependencies]
+acp-smt = { path = "../acp-smt" }
+acp-absence = { path = "../acp-absence" }
+acp-circuit = { path = "../acp-circuit" }
+p3-field = { workspace = true }
+
+[[bin]]
+name = "acp"
+path = "src/main.rs"
+
+[[bin]]
+name = "acp-compare"
+path = "src/compare.rs"

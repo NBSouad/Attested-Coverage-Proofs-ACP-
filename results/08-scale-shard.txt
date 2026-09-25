@@ -1,0 +1,10 @@
+=== ACP STARK: sharded (recursive-composition) scaling ===
+Sharded proving of a 2^18-permutation workload as 4 independent shard(s) of 2^16 perms:
+  shard  0: prove   15.71 s  proof   279.2 KB  ~mem   0.9 GB
+  shard  1: prove   15.67 s  proof   279.2 KB  ~mem   0.9 GB
+  shard  2: prove   15.69 s  proof   279.2 KB  ~mem   0.9 GB
+  shard  3: prove   15.45 s  proof   279.2 KB  ~mem   0.9 GB
+  totals : sequential prove 62.5 s, combined proof 1116.9 KB (pre-aggregation), peak mem ~0.9 GB/shard
+  shards are independent => embarrassingly parallel; each fits the per-shard memory
+  bound regardless of total workload. Aggregating the 4 shard proofs into one
+  succinct proof via FRI recursion is the remaining step (Plonky2/Plonky3 support it).

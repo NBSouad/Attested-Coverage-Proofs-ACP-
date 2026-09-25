@@ -1,0 +1,16 @@
+   Compiling acp-circuit v0.1.0 (/Users/test_exp/Downloads/VPQM_II/acp-prototype/crates/acp-circuit)
+    Finished `release` profile [optimized] target(s) in 2.38s
+     Running tests/zk_measure.rs (target/release/deps/zk_measure-9150523194186963)
+
+running 1 test
+test measure_hiding_overhead ... 
+ perms  plain (prove/verify/proof)  hiding (prove/verify/proof)              overhead
+  2^9       0.14s    2.6ms    151.1KB     0.47s    4.0ms    235.4KB  3.4x prove 1.56x proof
+  2^13      1.91s    3.7ms    218.1KB     7.08s    5.4ms    315.2KB  3.7x prove 1.45x proof
+  2^15      7.65s    4.2ms    258.2KB    28.39s    5.9ms    360.9KB  3.7x prove 1.40x proof
+
+  Unbound 2^15 hiding baseline: q=2100 would be 4 x 2^15 shards: 114s serial, ~28s across 4 cores, 1.41MB combined pre-aggregation. The bound batched q=2100 audit is measured in bind_batch_measure.
+ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 45.72s
+
